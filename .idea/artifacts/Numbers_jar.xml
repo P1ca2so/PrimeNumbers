@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Numbers:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Numbers_jar</output-path>
+    <root id="archive" name="Numbers.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Numbers" />
+      <element id="extracted-dir" path="E:/commons-collections4-4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/xmlbeans-2.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/poi-3.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/poi-ooxml-3.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/poi-ooxml-schemas-3.17.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
