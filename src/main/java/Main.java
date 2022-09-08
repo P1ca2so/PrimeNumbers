@@ -14,9 +14,12 @@ public class Main {
 
         List listOfPrimeNumbers = Programs.checkForPrimeNumbersInFile(path);
 
-        for (Object number : listOfPrimeNumbers) {
-            System.out.println(number);
+        if (listOfPrimeNumbers != null) {
+            for (Object number : listOfPrimeNumbers) {
+                System.out.println(number);
+            }
         }
+
     }
 
 
